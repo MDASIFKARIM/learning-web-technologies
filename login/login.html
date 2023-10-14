@@ -1,0 +1,16 @@
+<html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+    <h2>Login</h2>
+    <form action="login.php" method="post">
+        User Name: <input type="text" name="username" pattern="[a-zA-Z0-9._-]{2,}" required><br><br>
+        Password: <input type="password" name="password" pattern=".{8,}" required><br><br>
+        Remember Me: <input type="checkbox" name="remember"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <p><a href="forgot_password.php">Forgot Password?</a></p>
+</body>
+</html>
